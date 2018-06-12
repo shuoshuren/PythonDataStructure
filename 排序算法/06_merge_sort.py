@@ -27,13 +27,13 @@ def merge_sort(alist):
 			right_pointer += 1
 	result += left_li[left_pointer:]
 	result += right_li[right_pointer:]
+	print(result)
 	return result
 		
 
 
 if __name__ == '__main__':
 	
-	alist = [54,26,93,17,77,31,44,55,20]
+	alist = [54,26,93,17,77,31,26,44,55,20]
 	result = merge_sort(alist)
-	print(alist)
 	print(result)
